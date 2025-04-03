@@ -15,6 +15,8 @@ namespace Voter_Registration_System
         public userAccountTab()
         {
             InitializeComponent();
+            sidePanel.Height = btnAccount.Height;
+            sidePanel.Top = btnAccount.Top;
         }
     }
 }

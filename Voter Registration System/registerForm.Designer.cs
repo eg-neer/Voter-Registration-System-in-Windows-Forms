@@ -45,12 +45,14 @@
             label6 = new Label();
             dtpDOB = new DateTimePicker();
             label7 = new Label();
-            cboxProvince = new ComboBox();
             label8 = new Label();
             label9 = new Label();
             cboxMuniCity = new ComboBox();
             label10 = new Label();
             cboxBarangay = new ComboBox();
+            label11 = new Label();
+            cboxProvince = new ComboBox();
+            txbEmail = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pBoxBack).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -221,29 +223,21 @@
             label7.TabIndex = 22;
             label7.Text = "Date of Birth";
             // 
-            // cboxProvince
-            // 
-            cboxProvince.FormattingEnabled = true;
-            cboxProvince.Location = new Point(406, 288);
-            cboxProvince.Name = "cboxProvince";
-            cboxProvince.Size = new Size(225, 23);
-            cboxProvince.TabIndex = 23;
-            // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.Location = new Point(402, 264);
             label8.Name = "label8";
-            label8.Size = new Size(77, 21);
+            label8.Size = new Size(117, 21);
             label8.TabIndex = 24;
-            label8.Text = "Province";
+            label8.Text = "Email Address";
             // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(402, 327);
+            label9.Location = new Point(674, 335);
             label9.Name = "label9";
             label9.Size = new Size(150, 21);
             label9.TabIndex = 26;
@@ -252,7 +246,7 @@
             // cboxMuniCity
             // 
             cboxMuniCity.FormattingEnabled = true;
-            cboxMuniCity.Location = new Point(406, 351);
+            cboxMuniCity.Location = new Point(678, 359);
             cboxMuniCity.Name = "cboxMuniCity";
             cboxMuniCity.Size = new Size(225, 23);
             cboxMuniCity.TabIndex = 25;
@@ -270,22 +264,49 @@
             // cboxBarangay
             // 
             cboxBarangay.FormattingEnabled = true;
-            cboxBarangay.Location = new Point(406, 416);
+            cboxBarangay.Location = new Point(407, 416);
             cboxBarangay.Name = "cboxBarangay";
             cboxBarangay.Size = new Size(225, 23);
             cboxBarangay.TabIndex = 27;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label11.Location = new Point(403, 335);
+            label11.Name = "label11";
+            label11.Size = new Size(77, 21);
+            label11.TabIndex = 30;
+            label11.Text = "Province";
+            // 
+            // cboxProvince
+            // 
+            cboxProvince.FormattingEnabled = true;
+            cboxProvince.Location = new Point(407, 359);
+            cboxProvince.Name = "cboxProvince";
+            cboxProvince.Size = new Size(225, 23);
+            cboxProvince.TabIndex = 29;
+            // 
+            // txbEmail
+            // 
+            txbEmail.Location = new Point(406, 298);
+            txbEmail.Name = "txbEmail";
+            txbEmail.Size = new Size(225, 23);
+            txbEmail.TabIndex = 31;
             // 
             // registerForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 573);
+            Controls.Add(txbEmail);
+            Controls.Add(label11);
+            Controls.Add(cboxProvince);
             Controls.Add(label10);
             Controls.Add(cboxBarangay);
             Controls.Add(label9);
             Controls.Add(cboxMuniCity);
             Controls.Add(label8);
-            Controls.Add(cboxProvince);
             Controls.Add(label7);
             Controls.Add(dtpDOB);
             Controls.Add(label6);
@@ -328,11 +349,13 @@
         private Label label6;
         private DateTimePicker dtpDOB;
         private Label label7;
-        private ComboBox cboxProvince;
         private Label label8;
         private Label label9;
         private ComboBox cboxMuniCity;
         private Label label10;
         private ComboBox cboxBarangay;
+        private Label label11;
+        private ComboBox cboxProvince;
+        private TextBox txbEmail;
     }
 }

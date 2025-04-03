@@ -15,8 +15,8 @@ namespace Voter_Registration_System
         public schedTab()
         {
             InitializeComponent();
-            sidePanel.Height = btnHome.Height;
-            sidePanel.Top = btnHome.Top;
+            sidePanel.Height = btnSchedule.Height;
+            sidePanel.Top = btnSchedule.Top;
         }
 
         private void pBoxBack_Click(object sender, EventArgs e)

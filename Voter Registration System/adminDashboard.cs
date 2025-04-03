@@ -38,12 +38,18 @@ namespace Voter_Registration_System
         {
             sidePanel.Height = btnSearch.Height;
             sidePanel.Top = btnSearch.Top;
+            adminSearchTab adminSearchTab = new adminSearchTab();
+            adminSearchTab.Show();
+            this.Hide();
         }
 
         private void btnStatistics_Click(object sender, EventArgs e)
         {
             sidePanel.Height = btnStatistics.Height;
             sidePanel.Top = btnStatistics.Top;
+            adminStatisticsTab adminStatisticsTab = new adminStatisticsTab();
+            adminStatisticsTab.Show();
+            this.Hide();
         }
     }
 }

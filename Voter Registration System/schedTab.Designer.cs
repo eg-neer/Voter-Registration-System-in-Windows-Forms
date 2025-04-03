@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(schedTab));
-            panel3 = new Panel();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
             button1 = new Button();
@@ -39,19 +38,11 @@
             btnSchedule = new Button();
             btnHome = new Button();
             pBoxBack = new PictureBox();
+            panel3 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pBoxBack).BeginInit();
             SuspendLayout();
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.Gold;
-            panel3.Dock = DockStyle.Top;
-            panel3.Location = new Point(0, 0);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(936, 25);
-            panel3.TabIndex = 3;
             // 
             // pictureBox1
             // 
@@ -74,9 +65,9 @@
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(btnHome);
             panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 25);
+            panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(221, 548);
+            panel1.Size = new Size(221, 573);
             panel1.TabIndex = 4;
             // 
             // button1
@@ -90,7 +81,7 @@
             button1.ImageAlign = ContentAlignment.MiddleLeft;
             button1.Location = new Point(12, 499);
             button1.Name = "button1";
-            button1.Size = new Size(209, 49);
+            button1.Size = new Size(209, 74);
             button1.TabIndex = 6;
             button1.Text = "Register";
             button1.UseVisualStyleBackColor = true;
@@ -115,7 +106,7 @@
             btnRegister.ImageAlign = ContentAlignment.MiddleLeft;
             btnRegister.Location = new Point(12, 524);
             btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(209, 497);
+            btnRegister.Size = new Size(209, 522);
             btnRegister.TabIndex = 4;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = true;
@@ -182,16 +173,26 @@
             pBoxBack.TabStop = false;
             pBoxBack.Click += pBoxBack_Click;
             // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Gold;
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(221, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(715, 25);
+            panel3.TabIndex = 8;
+            // 
             // schedTab
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 573);
+            Controls.Add(panel3);
             Controls.Add(pBoxBack);
             Controls.Add(panel1);
-            Controls.Add(panel3);
             FormBorderStyle = FormBorderStyle.None;
             Name = "schedTab";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "shcedTab";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
@@ -200,8 +201,6 @@
         }
 
         #endregion
-
-        private Panel panel3;
         private PictureBox pictureBox1;
         private Panel panel1;
         private Panel sidePanel;
@@ -211,5 +210,6 @@
         private Button btnHome;
         private Button button1;
         private PictureBox pBoxBack;
+        private Panel panel3;
     }
 }

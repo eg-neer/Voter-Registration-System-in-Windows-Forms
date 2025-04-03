@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7/LbOPMoAGg=",
+  "dgSpecHash": "AgdUh8PiOOc=",
   "success": true,
-  "projectFilePath": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\Voter Registration System.csproj",
+  "projectFilePath": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Final Project\\Voter-Registration-System-in-Windows-Forms\\Voter Registration System\\Voter Registration System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EG\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\EG\\.nuget\\packages\\mailkit\\4.11.0\\mailkit.4.11.0.nupkg.sha512",

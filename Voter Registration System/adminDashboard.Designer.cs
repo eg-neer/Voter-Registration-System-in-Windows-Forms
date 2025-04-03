@@ -37,7 +37,6 @@
             btnStatistics = new Button();
             btnSearch = new Button();
             btnList = new Button();
-            panel3 = new Panel();
             dgvVoters = new DataGridView();
             txbLname = new TextBox();
             label3 = new Label();
@@ -50,6 +49,7 @@
             label5 = new Label();
             textBox3 = new TextBox();
             label6 = new Label();
+            panel3 = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvVoters).BeginInit();
@@ -66,9 +66,9 @@
             panel1.Controls.Add(btnSearch);
             panel1.Controls.Add(btnList);
             panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 25);
+            panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(221, 548);
+            panel1.Size = new Size(221, 573);
             panel1.TabIndex = 3;
             // 
             // label7
@@ -103,7 +103,7 @@
             btnSignOut.ImageAlign = ContentAlignment.MiddleLeft;
             btnSignOut.Location = new Point(12, 500);
             btnSignOut.Name = "btnSignOut";
-            btnSignOut.Size = new Size(209, 49);
+            btnSignOut.Size = new Size(209, 74);
             btnSignOut.TabIndex = 6;
             btnSignOut.Text = "Sign Out";
             btnSignOut.UseVisualStyleBackColor = true;
@@ -167,15 +167,6 @@
             btnList.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnList.UseVisualStyleBackColor = true;
             btnList.Click += btnList_Click;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.Gold;
-            panel3.Dock = DockStyle.Top;
-            panel3.Location = new Point(0, 0);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(936, 25);
-            panel3.TabIndex = 4;
             // 
             // dgvVoters
             // 
@@ -280,11 +271,21 @@
             label6.TabIndex = 24;
             label6.Text = "Voter ID";
             // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Gold;
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(221, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(715, 25);
+            panel3.TabIndex = 26;
+            // 
             // adminDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 573);
+            Controls.Add(panel3);
             Controls.Add(textBox3);
             Controls.Add(label6);
             Controls.Add(textBox2);
@@ -298,7 +299,6 @@
             Controls.Add(label1);
             Controls.Add(dgvVoters);
             Controls.Add(panel1);
-            Controls.Add(panel3);
             FormBorderStyle = FormBorderStyle.None;
             Name = "adminDashboard";
             StartPosition = FormStartPosition.CenterScreen;
@@ -318,7 +318,6 @@
         private Button btnStatistics;
         private Button btnSearch;
         private Button btnList;
-        private Panel panel3;
         private DataGridView dgvVoters;
         private Button btnSignOut;
         private TextBox txbLname;
@@ -334,5 +333,6 @@
         private Label label6;
         private Label label7;
         private PictureBox pictureBox1;
+        private Panel panel3;
     }
 }

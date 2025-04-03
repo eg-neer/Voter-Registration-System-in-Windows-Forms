@@ -33,7 +33,6 @@
             label1 = new Label();
             btnSignOut = new Button();
             sidePanel = new Panel();
-            btnRegister = new Button();
             btnAccount = new Button();
             btnSchedule = new Button();
             pictureBox1 = new PictureBox();
@@ -49,15 +48,14 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btnSignOut);
             panel1.Controls.Add(sidePanel);
-            panel1.Controls.Add(btnRegister);
             panel1.Controls.Add(btnAccount);
             panel1.Controls.Add(btnSchedule);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(btnHome);
             panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 25);
+            panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(221, 548);
+            panel1.Size = new Size(221, 573);
             panel1.TabIndex = 3;
             // 
             // label1
@@ -82,7 +80,7 @@
             btnSignOut.ImageAlign = ContentAlignment.MiddleLeft;
             btnSignOut.Location = new Point(12, 499);
             btnSignOut.Name = "btnSignOut";
-            btnSignOut.Size = new Size(209, 49);
+            btnSignOut.Size = new Size(209, 74);
             btnSignOut.TabIndex = 5;
             btnSignOut.Text = "Sign Out";
             btnSignOut.UseVisualStyleBackColor = true;
@@ -95,22 +93,6 @@
             sidePanel.Name = "sidePanel";
             sidePanel.Size = new Size(10, 83);
             sidePanel.TabIndex = 3;
-            // 
-            // btnRegister
-            // 
-            btnRegister.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            btnRegister.FlatAppearance.BorderSize = 0;
-            btnRegister.FlatStyle = FlatStyle.Flat;
-            btnRegister.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnRegister.ForeColor = Color.White;
-            btnRegister.Image = (Image)resources.GetObject("btnRegister.Image");
-            btnRegister.ImageAlign = ContentAlignment.MiddleLeft;
-            btnRegister.Location = new Point(12, 524);
-            btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(209, 497);
-            btnRegister.TabIndex = 4;
-            btnRegister.Text = "Register";
-            btnRegister.UseVisualStyleBackColor = true;
             // 
             // btnAccount
             // 
@@ -177,18 +159,18 @@
             // 
             panel3.BackColor = Color.Gold;
             panel3.Dock = DockStyle.Top;
-            panel3.Location = new Point(0, 0);
+            panel3.Location = new Point(221, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(936, 25);
-            panel3.TabIndex = 4;
+            panel3.Size = new Size(715, 25);
+            panel3.TabIndex = 5;
             // 
             // userDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 573);
-            Controls.Add(panel1);
             Controls.Add(panel3);
+            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "userDashboard";
             StartPosition = FormStartPosition.CenterScreen;
@@ -203,13 +185,12 @@
 
         private Panel panel1;
         private Panel sidePanel;
-        private Button btnRegister;
         private Button btnAccount;
         private Button btnSchedule;
         private PictureBox pictureBox1;
         private Button btnHome;
-        private Panel panel3;
         private Button btnSignOut;
         private Label label1;
+        private Panel panel3;
     }
 }
