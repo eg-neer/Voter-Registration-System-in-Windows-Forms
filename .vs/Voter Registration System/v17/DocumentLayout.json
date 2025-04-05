@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\adminsearchtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:adminsearchtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\schedtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:schedtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\useraccounttab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:useraccounttab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\useraccounttab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:useraccounttab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\userschedtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:userschedtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\schedtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:schedtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminstatisticstab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:adminstatisticstab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\adminstatisticstab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:adminstatisticstab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\adminsearchtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:adminsearchtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userschedtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:userschedtab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|d:\\cit\\ii - bscpe\\2nd sem\\4 cpe262\\output\\programs\\voter registration system\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4323F3D2-4289-4CD3-8C9E-85E876821E16}|Voter Registration System.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Startup.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\Startup.cs [Design]",
+              "RelativeToolTip": "Startup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:07:11.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:31:38.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "schedTab.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\schedTab.cs",
+              "RelativeDocumentMoniker": "schedTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\schedTab.cs [Design]",
+              "RelativeToolTip": "schedTab.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:21:26.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "schedTab.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\schedTab.cs",
+              "RelativeDocumentMoniker": "schedTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\schedTab.cs",
+              "RelativeToolTip": "schedTab.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:26:15.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "registerForm.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\registerForm.cs",
+              "RelativeDocumentMoniker": "registerForm.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\registerForm.cs [Design]",
+              "RelativeToolTip": "registerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:25:56.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "registerForm.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\registerForm.cs",
+              "RelativeDocumentMoniker": "registerForm.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\registerForm.cs",
+              "RelativeToolTip": "registerForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:33:17.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "loginForm.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\loginForm.cs",
+              "RelativeDocumentMoniker": "loginForm.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\loginForm.cs [Design]",
+              "RelativeToolTip": "loginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:25:52.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "loginForm.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\loginForm.cs",
+              "RelativeDocumentMoniker": "loginForm.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\loginForm.cs",
+              "RelativeToolTip": "loginForm.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAewDUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:33:44.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "userDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userDashboard.cs",
+              "RelativeDocumentMoniker": "userDashboard.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userDashboard.cs [Design]",
+              "RelativeToolTip": "userDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:10:39.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "userDashboard.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userDashboard.cs",
+              "RelativeDocumentMoniker": "userDashboard.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userDashboard.cs",
+              "RelativeToolTip": "userDashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:34:03.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "userSchedTab.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userSchedTab.cs",
+              "RelativeDocumentMoniker": "userSchedTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userSchedTab.cs [Design]",
+              "RelativeToolTip": "userSchedTab.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:11:18.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "userSchedTab.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userSchedTab.cs",
+              "RelativeDocumentMoniker": "userSchedTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userSchedTab.cs",
+              "RelativeToolTip": "userSchedTab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:34:49.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "userAccountTab.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userAccountTab.cs",
+              "RelativeDocumentMoniker": "userAccountTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userAccountTab.cs [Design]",
+              "RelativeToolTip": "userAccountTab.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:05:18.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "userAccountTab.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userAccountTab.cs",
+              "RelativeDocumentMoniker": "userAccountTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\userAccountTab.cs",
+              "RelativeToolTip": "userAccountTab.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:35:35.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "adminDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminDashboard.cs",
+              "RelativeDocumentMoniker": "adminDashboard.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminDashboard.cs [Design]",
+              "RelativeToolTip": "adminDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:09:45.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "adminDashboard.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminDashboard.cs",
+              "RelativeDocumentMoniker": "adminDashboard.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminDashboard.cs",
+              "RelativeToolTip": "adminDashboard.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:36:16.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "adminSearchTab.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminSearchTab.cs",
+              "RelativeDocumentMoniker": "adminSearchTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminSearchTab.cs [Design]",
+              "RelativeToolTip": "adminSearchTab.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:16:03.171Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "adminSearchTab.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminSearchTab.cs",
+              "RelativeDocumentMoniker": "adminSearchTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminSearchTab.cs",
+              "RelativeToolTip": "adminSearchTab.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:37:08.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "adminStatisticsTab.cs [Design]",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminStatisticsTab.cs",
+              "RelativeDocumentMoniker": "adminStatisticsTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminStatisticsTab.cs [Design]",
+              "RelativeToolTip": "adminStatisticsTab.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:17:36.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "adminStatisticsTab.cs",
+              "DocumentMoniker": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminStatisticsTab.cs",
+              "RelativeDocumentMoniker": "adminStatisticsTab.cs",
+              "ToolTip": "D:\\CIT\\II - BSCPE\\2nd Sem\\4 CPE262\\Output\\Programs\\Voter Registration System\\adminStatisticsTab.cs",
+              "RelativeToolTip": "adminStatisticsTab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:37:35.298Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
