@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userAccountTab));
-            label1 = new Label();
+            labelUser = new Label();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
             btnSignOut = new Button();
@@ -42,16 +42,16 @@
             panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
+            // labelUser
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.WhiteSmoke;
-            label1.Location = new Point(80, 37);
-            label1.Name = "label1";
-            label1.Size = new Size(64, 21);
-            label1.TabIndex = 6;
-            label1.Text = "Hi User!";
+            labelUser.AutoSize = true;
+            labelUser.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelUser.ForeColor = Color.WhiteSmoke;
+            labelUser.Location = new Point(80, 37);
+            labelUser.Name = "labelUser";
+            labelUser.Size = new Size(64, 21);
+            labelUser.TabIndex = 6;
+            labelUser.Text = "Hi User!";
             // 
             // pictureBox1
             // 
@@ -67,7 +67,7 @@
             // 
             panel1.BackColor = SystemColors.ControlDarkDark;
             panel1.Controls.Add(btnSignOut);
-            panel1.Controls.Add(label1);
+            panel1.Controls.Add(labelUser);
             panel1.Controls.Add(sidePanel);
             panel1.Controls.Add(btnAccount);
             panel1.Controls.Add(btnSchedule);
@@ -183,7 +183,7 @@
 
         #endregion
 
-        private Label label1;
+        private Label labelUser;
         private PictureBox pictureBox1;
         private Panel panel1;
         private Panel sidePanel;

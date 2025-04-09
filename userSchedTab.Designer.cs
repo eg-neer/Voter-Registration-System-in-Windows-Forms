@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userSchedTab));
-            label1 = new Label();
+            labelUSer = new Label();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
             btnSignOut = new Button();
@@ -38,20 +38,22 @@
             btnSchedule = new Button();
             btnHome = new Button();
             panel3 = new Panel();
+            label1 = new Label();
+            labelCountdown = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
+            // labelUSer
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.WhiteSmoke;
-            label1.Location = new Point(80, 37);
-            label1.Name = "label1";
-            label1.Size = new Size(64, 21);
-            label1.TabIndex = 6;
-            label1.Text = "Hi User!";
+            labelUSer.AutoSize = true;
+            labelUSer.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelUSer.ForeColor = Color.WhiteSmoke;
+            labelUSer.Location = new Point(80, 37);
+            labelUSer.Name = "labelUSer";
+            labelUSer.Size = new Size(64, 21);
+            labelUSer.TabIndex = 6;
+            labelUSer.Text = "Hi User!";
             // 
             // pictureBox1
             // 
@@ -67,7 +69,7 @@
             // 
             panel1.BackColor = SystemColors.ControlDarkDark;
             panel1.Controls.Add(btnSignOut);
-            panel1.Controls.Add(label1);
+            panel1.Controls.Add(labelUSer);
             panel1.Controls.Add(sidePanel);
             panel1.Controls.Add(btnAccount);
             panel1.Controls.Add(btnSchedule);
@@ -164,11 +166,36 @@
             panel3.Size = new Size(715, 25);
             panel3.TabIndex = 8;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Brown;
+            label1.Location = new Point(264, 126);
+            label1.Name = "label1";
+            label1.Size = new Size(300, 25);
+            label1.TabIndex = 12;
+            label1.Text = "until the 2025 Midterm Elections";
+            // 
+            // labelCountdown
+            // 
+            labelCountdown.AutoSize = true;
+            labelCountdown.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelCountdown.ForeColor = SystemColors.ActiveCaptionText;
+            labelCountdown.Location = new Point(254, 62);
+            labelCountdown.Name = "labelCountdown";
+            labelCountdown.Size = new Size(464, 65);
+            labelCountdown.TabIndex = 11;
+            labelCountdown.Text = "00 Days 00 : 00 : 00";
+            labelCountdown.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // userSchedTab
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 573);
+            Controls.Add(label1);
+            Controls.Add(labelCountdown);
             Controls.Add(panel3);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
@@ -179,11 +206,12 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private Label labelUSer;
         private PictureBox pictureBox1;
         private Panel panel1;
         private Button btnSignOut;
@@ -192,5 +220,7 @@
         private Button btnSchedule;
         private Button btnHome;
         private Panel panel3;
+        private Label label1;
+        private Label labelCountdown;
     }
 }

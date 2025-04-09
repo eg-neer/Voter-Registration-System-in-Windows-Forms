@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userDashboard));
             panel1 = new Panel();
-            label1 = new Label();
+            labelUSer = new Label();
             btnSignOut = new Button();
             sidePanel = new Panel();
             btnAccount = new Button();
@@ -45,7 +45,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ControlDarkDark;
-            panel1.Controls.Add(label1);
+            panel1.Controls.Add(labelUSer);
             panel1.Controls.Add(btnSignOut);
             panel1.Controls.Add(sidePanel);
             panel1.Controls.Add(btnAccount);
@@ -58,16 +58,16 @@
             panel1.Size = new Size(221, 573);
             panel1.TabIndex = 3;
             // 
-            // label1
+            // labelUSer
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.WhiteSmoke;
-            label1.Location = new Point(80, 37);
-            label1.Name = "label1";
-            label1.Size = new Size(64, 21);
-            label1.TabIndex = 6;
-            label1.Text = "Hi User!";
+            labelUSer.AutoSize = true;
+            labelUSer.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelUSer.ForeColor = Color.WhiteSmoke;
+            labelUSer.Location = new Point(80, 37);
+            labelUSer.Name = "labelUSer";
+            labelUSer.Size = new Size(64, 21);
+            labelUSer.TabIndex = 6;
+            labelUSer.Text = "Hi User!";
             // 
             // btnSignOut
             // 
@@ -190,7 +190,7 @@
         private PictureBox pictureBox1;
         private Button btnHome;
         private Button btnSignOut;
-        private Label label1;
+        private Label labelUSer;
         private Panel panel3;
     }
 }

@@ -38,6 +38,8 @@
             btnHome = new Button();
             pBoxBack = new PictureBox();
             panel3 = new Panel();
+            labelCountdown = new Label();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pBoxBack).BeginInit();
@@ -164,11 +166,36 @@
             panel3.Size = new Size(715, 25);
             panel3.TabIndex = 8;
             // 
+            // labelCountdown
+            // 
+            labelCountdown.AutoSize = true;
+            labelCountdown.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelCountdown.ForeColor = SystemColors.ActiveCaptionText;
+            labelCountdown.Location = new Point(254, 62);
+            labelCountdown.Name = "labelCountdown";
+            labelCountdown.Size = new Size(464, 65);
+            labelCountdown.TabIndex = 9;
+            labelCountdown.Text = "00 Days 00 : 00 : 00";
+            labelCountdown.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Brown;
+            label1.Location = new Point(264, 126);
+            label1.Name = "label1";
+            label1.Size = new Size(300, 25);
+            label1.TabIndex = 10;
+            label1.Text = "until the 2025 Midterm Elections";
+            // 
             // schedTab
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 573);
+            Controls.Add(label1);
+            Controls.Add(labelCountdown);
             Controls.Add(panel3);
             Controls.Add(pBoxBack);
             Controls.Add(panel1);
@@ -180,6 +207,7 @@
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pBoxBack).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -192,5 +220,7 @@
         private Button btnRegister;
         private PictureBox pBoxBack;
         private Panel panel3;
+        private Label labelCountdown;
+        private Label label1;
     }
 }

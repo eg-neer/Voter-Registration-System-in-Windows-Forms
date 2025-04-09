@@ -1,6 +1,6 @@
 ﻿namespace Voter_Registration_System
 {
-    partial class adminSearchTab
+    partial class AdminStatisticsTab
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminSearchTab));
-            panel3 = new Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminStatisticsTab));
             panel1 = new Panel();
             btnSignOut = new Button();
             labelAdmin = new Label();
@@ -38,32 +37,10 @@
             btnStatistics = new Button();
             btnSearch = new Button();
             btnList = new Button();
-            textBox3 = new TextBox();
-            label6 = new Label();
-            textBox2 = new TextBox();
-            label5 = new Label();
-            txbLname = new TextBox();
-            label3 = new Label();
-            textBox1 = new TextBox();
-            txbFname = new TextBox();
-            label4 = new Label();
-            label2 = new Label();
-            label1 = new Label();
-            dgvVoters = new DataGridView();
-            btnSearch2 = new Button();
+            panel3 = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dgvVoters).BeginInit();
             SuspendLayout();
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.Gold;
-            panel3.Dock = DockStyle.Top;
-            panel3.Location = new Point(221, 0);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(715, 25);
-            panel3.TabIndex = 28;
             // 
             // panel1
             // 
@@ -79,7 +56,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(221, 573);
-            panel1.TabIndex = 27;
+            panel1.TabIndex = 28;
             // 
             // btnSignOut
             // 
@@ -93,7 +70,7 @@
             btnSignOut.Location = new Point(12, 499);
             btnSignOut.Name = "btnSignOut";
             btnSignOut.Size = new Size(209, 74);
-            btnSignOut.TabIndex = 9;
+            btnSignOut.TabIndex = 30;
             btnSignOut.Text = "Sign Out";
             btnSignOut.UseVisualStyleBackColor = true;
             btnSignOut.Click += btnSignOut_Click;
@@ -173,162 +150,39 @@
             btnList.Name = "btnList";
             btnList.Size = new Size(207, 83);
             btnList.TabIndex = 0;
-            btnList.Text = "          Pending List";
+            btnList.Text = "          List";
             btnList.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnList.UseVisualStyleBackColor = true;
             btnList.Click += btnList_Click;
             // 
-            // textBox3
+            // panel3
             // 
-            textBox3.Location = new Point(242, 383);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(192, 23);
-            textBox3.TabIndex = 40;
+            panel3.BackColor = Color.Gold;
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(221, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(715, 25);
+            panel3.TabIndex = 29;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(239, 359);
-            label6.Name = "label6";
-            label6.Size = new Size(74, 21);
-            label6.TabIndex = 39;
-            label6.Text = "Voter ID";
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(490, 450);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(418, 23);
-            textBox2.TabIndex = 38;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(487, 426);
-            label5.Name = "label5";
-            label5.Size = new Size(72, 21);
-            label5.TabIndex = 37;
-            label5.Text = "Address";
-            // 
-            // txbLname
-            // 
-            txbLname.Location = new Point(716, 383);
-            txbLname.Name = "txbLname";
-            txbLname.Size = new Size(192, 23);
-            txbLname.TabIndex = 36;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(713, 359);
-            label3.Name = "label3";
-            label3.Size = new Size(93, 21);
-            label3.TabIndex = 35;
-            label3.Text = "Last Name";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(465, 383);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(225, 23);
-            textBox1.TabIndex = 33;
-            // 
-            // txbFname
-            // 
-            txbFname.Location = new Point(239, 450);
-            txbFname.Name = "txbFname";
-            txbFname.Size = new Size(225, 23);
-            txbFname.TabIndex = 34;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(462, 359);
-            label4.Name = "label4";
-            label4.Size = new Size(91, 21);
-            label4.TabIndex = 31;
-            label4.Text = "First Name";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(236, 426);
-            label2.Name = "label2";
-            label2.Size = new Size(59, 21);
-            label2.TabIndex = 32;
-            label2.Text = "Status";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(227, 314);
-            label1.Name = "label1";
-            label1.Size = new Size(159, 28);
-            label1.TabIndex = 30;
-            label1.Text = "Voter Details";
-            // 
-            // dgvVoters
-            // 
-            dgvVoters.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvVoters.Location = new Point(219, 31);
-            dgvVoters.Name = "dgvVoters";
-            dgvVoters.Size = new Size(717, 253);
-            dgvVoters.TabIndex = 29;
-            // 
-            // btnSearch2
-            // 
-            btnSearch2.BackColor = Color.Gold;
-            btnSearch2.FlatAppearance.BorderSize = 0;
-            btnSearch2.FlatStyle = FlatStyle.Flat;
-            btnSearch2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSearch2.Location = new Point(802, 513);
-            btnSearch2.Name = "btnSearch2";
-            btnSearch2.Size = new Size(106, 34);
-            btnSearch2.TabIndex = 41;
-            btnSearch2.Text = "Search";
-            btnSearch2.UseVisualStyleBackColor = false;
-            // 
-            // adminSearchTab
+            // AdminStatisticsTab
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 573);
-            Controls.Add(btnSearch2);
-            Controls.Add(textBox3);
-            Controls.Add(label6);
-            Controls.Add(textBox2);
-            Controls.Add(label5);
-            Controls.Add(txbLname);
-            Controls.Add(label3);
-            Controls.Add(textBox1);
-            Controls.Add(txbFname);
-            Controls.Add(label4);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(dgvVoters);
             Controls.Add(panel3);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "adminSearchTab";
+            Name = "AdminStatisticsTab";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "adminSearchTab";
+            Text = "AdminStatisticsTab";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvVoters).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Panel panel3;
         private Panel panel1;
         private Label labelAdmin;
         private PictureBox pictureBox1;
@@ -336,19 +190,7 @@
         private Button btnStatistics;
         private Button btnSearch;
         private Button btnList;
+        private Panel panel3;
         private Button btnSignOut;
-        private TextBox textBox3;
-        private Label label6;
-        private TextBox textBox2;
-        private Label label5;
-        private TextBox txbLname;
-        private Label label3;
-        private TextBox textBox1;
-        private TextBox txbFname;
-        private Label label4;
-        private Label label2;
-        private Label label1;
-        private DataGridView dgvVoters;
-        private Button btnSearch2;
     }
 }

@@ -53,6 +53,9 @@
             cboxBarangay = new ComboBox();
             label11 = new Label();
             txbEmail = new TextBox();
+            label12 = new Label();
+            txbMname = new TextBox();
+            cboxConsent = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)pBoxBack).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -86,7 +89,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(146, 109);
+            pictureBox1.Location = new Point(143, 109);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(100, 100);
             pictureBox1.TabIndex = 3;
@@ -96,7 +99,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(49, 258);
+            label5.Location = new Point(41, 255);
             label5.Name = "label5";
             label5.Size = new Size(292, 24);
             label5.TabIndex = 2;
@@ -191,7 +194,7 @@
             // 
             cboxSex.FormattingEnabled = true;
             cboxSex.Items.AddRange(new object[] { "F", "M" });
-            cboxSex.Location = new Point(677, 222);
+            cboxSex.Location = new Point(677, 230);
             cboxSex.Name = "cboxSex";
             cboxSex.Size = new Size(64, 23);
             cboxSex.TabIndex = 19;
@@ -200,7 +203,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(674, 198);
+            label6.Location = new Point(674, 206);
             label6.Name = "label6";
             label6.Size = new Size(36, 21);
             label6.TabIndex = 20;
@@ -208,7 +211,7 @@
             // 
             // dtpDOB
             // 
-            dtpDOB.Location = new Point(406, 222);
+            dtpDOB.Location = new Point(406, 296);
             dtpDOB.Name = "dtpDOB";
             dtpDOB.Size = new Size(225, 23);
             dtpDOB.TabIndex = 21;
@@ -217,7 +220,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(404, 198);
+            label7.Location = new Point(404, 272);
             label7.Name = "label7";
             label7.Size = new Size(107, 21);
             label7.TabIndex = 22;
@@ -226,10 +229,12 @@
             // cboxProvince
             // 
             cboxProvince.FormattingEnabled = true;
+            cboxProvince.Items.AddRange(new object[] { "Abra", "Agusan del Norte", "Agusan del Sur", "Aklan", "Albay", "Antique", "Basilan", "Bataan", "Batanes", "Batangas", "Benguet", "Bohol", "Bulacan", "Bukidnon", "Cagayan", "Camarines Norte", "Camarines Sur", "Camiguin", "Capiz", "Catanduanes", "Cavite", "Cebu", "Davao del Norte", "Davao del Sur", "Davao Oriental", "Eastern Samar", "Ifugao", "Ilocos Norte", "Ilocos Sur", "Iloilo", "Isabela", "Kalinga", "La Union", "Laguna", "Lanao del Norte", "Lanao del Sur", "Leyte", "Maguindanao", "NCR, City of Manila, First District", "Marinduque", "Masbate", "Misamis Occidental", "Misamis Oriental", "Mountain Province", "Negros Occidental", "Negros Oriental", "North Cotabato", "Northern Samar", "Nueva Ecija", "Nueva Vizcaya", "Occidental Mindoro", "Oriental Mindoro", "Palawan", "Pampanga", "Pangasinan", "Quezon", "Quirino", "Rizal", "Romblon", "Samar (Western Samar)", "Siquijor", "Sorsogon", "South Cotabato", "Southern Leyte", "Sultan Kudarat", "Sulu", "Surigao del Norte", "Surigao del Sur", "Tarlac", "Tawi-Tawi", "Zambales", "Zamboanga del Norte", "Zamboanga del Sur", "NCR, Second District", "NCR, Third District", "NCR, Fourth District", "Aurora", "Biliran", "Guimaras", "Sarangani", "Apayao", "Davao de Oro", "Zamboanga Sibugay", "---", "Dinagat Islands", "Davao Occidental", "Maguindanao del Norte", "Maguindanao del Sur" });
             cboxProvince.Location = new Point(406, 364);
             cboxProvince.Name = "cboxProvince";
             cboxProvince.Size = new Size(225, 23);
             cboxProvince.TabIndex = 23;
+            cboxProvince.SelectedIndexChanged += cboxProvince_SelectedIndexChanged;
             // 
             // label8
             // 
@@ -258,6 +263,7 @@
             cboxMuniCity.Name = "cboxMuniCity";
             cboxMuniCity.Size = new Size(225, 23);
             cboxMuniCity.TabIndex = 25;
+            cboxMuniCity.SelectedIndexChanged += cboxMuniCity_SelectedIndexChanged;
             // 
             // label10
             // 
@@ -281,7 +287,7 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label11.Location = new Point(406, 277);
+            label11.Location = new Point(674, 272);
             label11.Name = "label11";
             label11.Size = new Size(117, 21);
             label11.TabIndex = 29;
@@ -289,16 +295,47 @@
             // 
             // txbEmail
             // 
-            txbEmail.Location = new Point(406, 301);
+            txbEmail.Location = new Point(674, 296);
             txbEmail.Name = "txbEmail";
             txbEmail.Size = new Size(225, 23);
             txbEmail.TabIndex = 30;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label12.Location = new Point(406, 206);
+            label12.Name = "label12";
+            label12.Size = new Size(115, 21);
+            label12.TabIndex = 31;
+            label12.Text = "Middle Name";
+            // 
+            // txbMname
+            // 
+            txbMname.Location = new Point(406, 230);
+            txbMname.Name = "txbMname";
+            txbMname.Size = new Size(225, 23);
+            txbMname.TabIndex = 32;
+            // 
+            // cboxConsent
+            // 
+            cboxConsent.AutoSize = true;
+            cboxConsent.Location = new Point(674, 432);
+            cboxConsent.Name = "cboxConsent";
+            cboxConsent.Size = new Size(166, 19);
+            cboxConsent.TabIndex = 33;
+            cboxConsent.Text = "Oath, Notice, and Consent";
+            cboxConsent.UseVisualStyleBackColor = true;
+            cboxConsent.Click += cboxConsent_Click;
             // 
             // registerForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 573);
+            Controls.Add(cboxConsent);
+            Controls.Add(txbMname);
+            Controls.Add(label12);
             Controls.Add(txbEmail);
             Controls.Add(label11);
             Controls.Add(label10);
@@ -358,5 +395,8 @@
         private ComboBox cboxBarangay;
         private Label label11;
         private TextBox txbEmail;
+        private Label label12;
+        private TextBox txbMname;
+        private CheckBox cboxConsent;
     }
 }

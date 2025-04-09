@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminDashboard));
             panel1 = new Panel();
-            label7 = new Label();
+            labelAdmin = new Label();
             pictureBox1 = new PictureBox();
             btnSignOut = new Button();
             sidePanel = new Panel();
@@ -60,7 +60,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ControlDarkDark;
-            panel1.Controls.Add(label7);
+            panel1.Controls.Add(labelAdmin);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(btnSignOut);
             panel1.Controls.Add(sidePanel);
@@ -73,16 +73,16 @@
             panel1.Size = new Size(221, 573);
             panel1.TabIndex = 3;
             // 
-            // label7
+            // labelAdmin
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.ForeColor = Color.WhiteSmoke;
-            label7.Location = new Point(80, 37);
-            label7.Name = "label7";
-            label7.Size = new Size(84, 21);
-            label7.TabIndex = 8;
-            label7.Text = "Hi Admin!";
+            labelAdmin.AutoSize = true;
+            labelAdmin.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelAdmin.ForeColor = Color.WhiteSmoke;
+            labelAdmin.Location = new Point(80, 37);
+            labelAdmin.Name = "labelAdmin";
+            labelAdmin.Size = new Size(84, 21);
+            labelAdmin.TabIndex = 8;
+            labelAdmin.Text = "Hi Admin!";
             // 
             // pictureBox1
             // 
@@ -362,7 +362,7 @@
         private Label label5;
         private TextBox textBox3;
         private Label label6;
-        private Label label7;
+        private Label labelAdmin;
         private PictureBox pictureBox1;
         private Panel panel3;
         private Button btnApprove;
