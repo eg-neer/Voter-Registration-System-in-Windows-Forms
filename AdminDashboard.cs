@@ -47,7 +47,7 @@ namespace Voter_Registration_System
         {
             sidePanel.Height = btnStatistics.Height;
             sidePanel.Top = btnStatistics.Top;
-            AdminStatisticsTab adminStatisticsTab = new AdminStatisticsTab();
+            adminStatisticsTab adminStatisticsTab = new adminStatisticsTab();
             adminStatisticsTab.Show();
             this.Hide();
         }

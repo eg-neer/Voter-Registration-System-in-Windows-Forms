@@ -1,6 +1,6 @@
 ﻿namespace Voter_Registration_System
 {
-    partial class AdminStatisticsTab
+    partial class adminStatisticsTab
     {
         /// <summary>
         /// Required designer variable.
@@ -28,25 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminStatisticsTab));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminStatisticsTab));
+            panel3 = new Panel();
             panel1 = new Panel();
             btnSignOut = new Button();
-            labelAdmin = new Label();
+            label7 = new Label();
             pictureBox1 = new PictureBox();
             sidePanel = new Panel();
             btnStatistics = new Button();
             btnSearch = new Button();
             btnList = new Button();
-            panel3 = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Gold;
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(221, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(715, 25);
+            panel3.TabIndex = 30;
             // 
             // panel1
             // 
             panel1.BackColor = SystemColors.ControlDarkDark;
             panel1.Controls.Add(btnSignOut);
-            panel1.Controls.Add(labelAdmin);
+            panel1.Controls.Add(label7);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(sidePanel);
             panel1.Controls.Add(btnStatistics);
@@ -56,7 +65,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(221, 573);
-            panel1.TabIndex = 28;
+            panel1.TabIndex = 29;
             // 
             // btnSignOut
             // 
@@ -70,21 +79,21 @@
             btnSignOut.Location = new Point(12, 499);
             btnSignOut.Name = "btnSignOut";
             btnSignOut.Size = new Size(209, 74);
-            btnSignOut.TabIndex = 30;
+            btnSignOut.TabIndex = 10;
             btnSignOut.Text = "Sign Out";
             btnSignOut.UseVisualStyleBackColor = true;
             btnSignOut.Click += btnSignOut_Click;
             // 
-            // labelAdmin
+            // label7
             // 
-            labelAdmin.AutoSize = true;
-            labelAdmin.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelAdmin.ForeColor = Color.WhiteSmoke;
-            labelAdmin.Location = new Point(80, 37);
-            labelAdmin.Name = "labelAdmin";
-            labelAdmin.Size = new Size(84, 21);
-            labelAdmin.TabIndex = 8;
-            labelAdmin.Text = "Hi Admin!";
+            label7.AutoSize = true;
+            label7.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.WhiteSmoke;
+            label7.Location = new Point(80, 37);
+            label7.Name = "label7";
+            label7.Size = new Size(84, 21);
+            label7.TabIndex = 8;
+            label7.Text = "Hi Admin!";
             // 
             // pictureBox1
             // 
@@ -155,16 +164,7 @@
             btnList.UseVisualStyleBackColor = true;
             btnList.Click += btnList_Click;
             // 
-            // panel3
-            // 
-            panel3.BackColor = Color.Gold;
-            panel3.Dock = DockStyle.Top;
-            panel3.Location = new Point(221, 0);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(715, 25);
-            panel3.TabIndex = 29;
-            // 
-            // AdminStatisticsTab
+            // adminStatisticsTab
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -172,9 +172,9 @@
             Controls.Add(panel3);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "AdminStatisticsTab";
+            Name = "adminStatisticsTab";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "AdminStatisticsTab";
+            Text = "adminStatisticsTab";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -183,14 +183,14 @@
 
         #endregion
 
+        private Panel panel3;
         private Panel panel1;
-        private Label labelAdmin;
+        private Label label7;
         private PictureBox pictureBox1;
         private Panel sidePanel;
         private Button btnStatistics;
         private Button btnSearch;
         private Button btnList;
-        private Panel panel3;
         private Button btnSignOut;
     }
 }

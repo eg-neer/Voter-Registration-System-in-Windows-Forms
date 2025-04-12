@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Voter_Registration_System
 {
-    public partial class AdminStatisticsTab : Form
+    public partial class adminStatisticsTab : Form
     {
-        public AdminStatisticsTab()
+        public adminStatisticsTab()
         {
             InitializeComponent();
             sidePanel.Height = btnStatistics.Height;
@@ -26,6 +26,7 @@ namespace Voter_Registration_System
             startup.Show();
             this.Hide();
         }
+
         private void btnList_Click(object sender, EventArgs e)
         {
             sidePanel.Height = btnList.Height;
@@ -34,6 +35,7 @@ namespace Voter_Registration_System
             adminDashboard.Show();
             this.Hide();
         }
+
         private void btnSearch_Click(object sender, EventArgs e)
         {
             sidePanel.Height = btnSearch.Height;
@@ -42,6 +44,7 @@ namespace Voter_Registration_System
             adminSearchTab.Show();
             this.Hide();
         }
+
         private void btnStatistics_Click(object sender, EventArgs e)
         {
             sidePanel.Height = btnStatistics.Height;
