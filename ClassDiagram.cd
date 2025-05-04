@@ -1,71 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Voter_Registration_System.userSchedTab" Collapsed="true">
-    <Position X="5.5" Y="2.5" Width="1.5" />
+  <Class Name="Voter_Registration_System.userSchedTab">
+    <Position X="13.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>userSchedTab.cs</FileName>
+      <HashCode>AQAAQBEACCABABAAAACABAECAAAAAAgAAAAAAQBAAJA=</HashCode>
+      <FileName>UserSchedTab.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Voter_Registration_System.Form1" Collapsed="true">
-    <Position X="1.5" Y="0.5" Width="1.5" />
+  <Class Name="Voter_Registration_System.Form1">
+    <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAABAAACAAAAAAAACABAACBAAAAAAAAAAAAQBAAEA=</HashCode>
+      <FileName>Startup.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Voter_Registration_System.registerForm" Collapsed="true">
-    <Position X="1.5" Y="1.75" Width="1.5" />
+  <Class Name="Voter_Registration_System.registerForm">
+    <Position X="6.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>MAAAABQAACAAABABABCAAAASAAggCIAAAAAAAQBgQEA=</HashCode>
-      <FileName>registerForm.cs</FileName>
+      <HashCode>8ggUABQEACAAABABCBCAAAASKIggyIAAAAQAAQhgQEA=</HashCode>
+      <FileName>RegisterForm.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Voter_Registration_System.loginForm" Collapsed="true">
-    <Position X="1.5" Y="3" Width="1.5" />
+  <Class Name="Voter_Registration_System.loginForm">
+    <Position X="8.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAAACAAABAAABCAAAACAAAgCAAAABAAAQFgAEA=</HashCode>
-      <FileName>loginForm.cs</FileName>
+      <HashCode>AAgAAAAAACAAABAAABCAAAACAAAAAAAAABAAAQFAAEA=</HashCode>
     </TypeIdentifier>
   </Class>
-  <Class Name="Voter_Registration_System.schedTab" Collapsed="true">
-    <Position X="1.5" Y="4.25" Width="1.5" />
+  <Class Name="Voter_Registration_System.schedTab">
+    <Position X="10.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAABAAACAAAAAAABCABAACAAAIAAAAAAAAAQBAAEA=</HashCode>
+      <HashCode>AQAAQBEAACAAABAAABCABCICIAAgCAkAAEAAASBAAVA=</HashCode>
+      <FileName>SchedTab.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Voter_Registration_System.userDashboard" Collapsed="true">
-    <Position X="3.5" Y="2.5" Width="1.5" />
+  <Class Name="Voter_Registration_System.userDashboard">
+    <Position X="12" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAABAAACAAABAAAACEBAMCIAAAAAAAAAAAAQDAAIA=</HashCode>
-      <FileName>userDashboard.cs</FileName>
+      <HashCode>AQAAABAAACABAAAAAACABAECAAAAAAAAAAAAAQBAAIA=</HashCode>
+      <FileName>UserDashboard.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Voter_Registration_System.adminDashboard" Collapsed="true">
-    <Position X="3.5" Y="3.75" Width="1.5" />
+  <Class Name="Voter_Registration_System.adminDashboard">
+    <Position X="17.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACAAgAQAgCAAABABAACEBABCAAABAAAgEAAAAQBACMI=</HashCode>
-      <FileName>adminDashboard.cs</FileName>
+      <HashCode>AgAQwAQQgKAgABABAACEBAACAIABAAEiAQAAAQBAAMI=</HashCode>
+      <FileName>AdminDashboard.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Voter_Registration_System.userAccountTab" Collapsed="true">
-    <Position X="7.5" Y="2.5" Width="1.5" />
+  <Class Name="Voter_Registration_System.userAccountTab">
+    <Position X="15.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>userAccountTab.cs</FileName>
+      <HashCode>AQAAABEAACAAABAAAACABAECAAAAAAAAAAAAAQBAAIA=</HashCode>
+      <FileName>UserAccountTab.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Voter_Registration_System.adminSearchTab" Collapsed="true">
-    <Position X="5.5" Y="3.75" Width="1.5" />
+  <Class Name="Voter_Registration_System.adminSearchTab">
+    <Position X="19" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>adminSearchTab.cs</FileName>
+      <HashCode>AAAAQgQAgKAAABABAACABAACAAABAAAgAAAAAQBACIY=</HashCode>
+      <FileName>AdminSearchTab.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Voter_Registration_System.adminStatisticsTab" Collapsed="true">
-    <Position X="7.5" Y="3.75" Width="1.5" />
+  <Class Name="Voter_Registration_System.AdminStatisticsTab">
+    <Position X="20.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>adminStatisticsTab.cs</FileName>
+      <HashCode>AAAAAhAAgKAAABAAAACABAACAAABAAAAAAAAAQBAAII=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Voter_Registration_System.Applicants">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEACAABAAAAAAQAFIAAAAQAAAAAAAAEgAAAEg=</HashCode>
+      <FileName>Applicants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Voter_Registration_System.Voter">
+    <Position X="1.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAABAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Voter.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

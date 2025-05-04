@@ -40,7 +40,6 @@
             txbUsername = new TextBox();
             txbPassword = new TextBox();
             label3 = new Label();
-            cboxShowPass = new CheckBox();
             btnLogin = new Button();
             ((System.ComponentModel.ISupportInitialize)pBoxBack).BeginInit();
             panel1.SuspendLayout();
@@ -149,6 +148,7 @@
             // 
             txbPassword.Location = new Point(461, 306);
             txbPassword.Name = "txbPassword";
+            txbPassword.PasswordChar = '*';
             txbPassword.Size = new Size(381, 23);
             txbPassword.TabIndex = 9;
             // 
@@ -161,17 +161,6 @@
             label3.Size = new Size(82, 21);
             label3.TabIndex = 8;
             label3.Text = "Password";
-            // 
-            // cboxShowPass
-            // 
-            cboxShowPass.AutoSize = true;
-            cboxShowPass.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cboxShowPass.Location = new Point(721, 335);
-            cboxShowPass.Name = "cboxShowPass";
-            cboxShowPass.Size = new Size(127, 21);
-            cboxShowPass.TabIndex = 10;
-            cboxShowPass.Text = "Show Password";
-            cboxShowPass.UseVisualStyleBackColor = true;
             // 
             // btnLogin
             // 
@@ -195,7 +184,6 @@
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(936, 573);
             Controls.Add(btnLogin);
-            Controls.Add(cboxShowPass);
             Controls.Add(txbPassword);
             Controls.Add(label3);
             Controls.Add(txbUsername);
@@ -226,7 +214,6 @@
         private TextBox txbUsername;
         private TextBox txbPassword;
         private Label label3;
-        private CheckBox cboxShowPass;
         private Button btnRegister;
         private Label label4;
         private Button btnLogin;

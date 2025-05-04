@@ -56,9 +56,13 @@
             label12 = new Label();
             txbMname = new TextBox();
             cboxConsent = new CheckBox();
+            btnUpload = new Button();
+            label13 = new Label();
+            pictureBoxPhoto = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pBoxBack).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPhoto).BeginInit();
             SuspendLayout();
             // 
             // pBoxBack
@@ -299,6 +303,8 @@
             txbEmail.Name = "txbEmail";
             txbEmail.Size = new Size(225, 23);
             txbEmail.TabIndex = 30;
+            txbEmail.Text = "@gmail.com";
+            txbEmail.TextAlign = HorizontalAlignment.Right;
             // 
             // label12
             // 
@@ -328,11 +334,43 @@
             cboxConsent.UseVisualStyleBackColor = true;
             cboxConsent.Click += cboxConsent_Click;
             // 
+            // btnUpload
+            // 
+            btnUpload.Location = new Point(413, 494);
+            btnUpload.Name = "btnUpload";
+            btnUpload.Size = new Size(75, 23);
+            btnUpload.TabIndex = 34;
+            btnUpload.Text = "Upload";
+            btnUpload.UseVisualStyleBackColor = true;
+            btnUpload.Click += btnUpload_Click;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label13.Location = new Point(406, 470);
+            label13.Name = "label13";
+            label13.Size = new Size(223, 21);
+            label13.TabIndex = 35;
+            label13.Text = "Add Government Issued ID";
+            // 
+            // pictureBoxPhoto
+            // 
+            pictureBoxPhoto.Location = new Point(512, 494);
+            pictureBoxPhoto.Name = "pictureBoxPhoto";
+            pictureBoxPhoto.Size = new Size(119, 67);
+            pictureBoxPhoto.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBoxPhoto.TabIndex = 36;
+            pictureBoxPhoto.TabStop = false;
+            // 
             // registerForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 573);
+            Controls.Add(pictureBoxPhoto);
+            Controls.Add(label13);
+            Controls.Add(btnUpload);
             Controls.Add(cboxConsent);
             Controls.Add(txbMname);
             Controls.Add(label12);
@@ -361,10 +399,12 @@
             Name = "registerForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "registerForm";
+            Load += registerForm_Load;
             ((System.ComponentModel.ISupportInitialize)pBoxBack).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPhoto).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -398,5 +438,8 @@
         private Label label12;
         private TextBox txbMname;
         private CheckBox cboxConsent;
+        private Button btnUpload;
+        private Label label13;
+        private PictureBox pictureBoxPhoto;
     }
 }

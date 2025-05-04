@@ -38,8 +38,15 @@
             pictureBox1 = new PictureBox();
             btnHome = new Button();
             panel3 = new Panel();
+            dgvSenators = new DataGridView();
+            dgvPartylist = new DataGridView();
+            label2 = new Label();
+            label1 = new Label();
+            labelCountdown = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvSenators).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPartylist).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -55,7 +62,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(221, 573);
+            panel1.Size = new Size(221, 1080);
             panel1.TabIndex = 3;
             // 
             // labelUSer
@@ -78,9 +85,9 @@
             btnSignOut.ForeColor = Color.White;
             btnSignOut.Image = (Image)resources.GetObject("btnSignOut.Image");
             btnSignOut.ImageAlign = ContentAlignment.MiddleLeft;
-            btnSignOut.Location = new Point(12, 499);
+            btnSignOut.Location = new Point(14, 997);
             btnSignOut.Name = "btnSignOut";
-            btnSignOut.Size = new Size(209, 74);
+            btnSignOut.Size = new Size(207, 83);
             btnSignOut.TabIndex = 5;
             btnSignOut.Text = "Sign Out";
             btnSignOut.UseVisualStyleBackColor = true;
@@ -89,7 +96,7 @@
             // sidePanel
             // 
             sidePanel.BackColor = Color.Gold;
-            sidePanel.Location = new Point(0, 126);
+            sidePanel.Location = new Point(0, 332);
             sidePanel.Name = "sidePanel";
             sidePanel.Size = new Size(10, 83);
             sidePanel.TabIndex = 3;
@@ -102,7 +109,7 @@
             btnAccount.ForeColor = Color.White;
             btnAccount.Image = (Image)resources.GetObject("btnAccount.Image");
             btnAccount.ImageAlign = ContentAlignment.MiddleLeft;
-            btnAccount.Location = new Point(12, 304);
+            btnAccount.Location = new Point(14, 510);
             btnAccount.Name = "btnAccount";
             btnAccount.Size = new Size(207, 83);
             btnAccount.TabIndex = 3;
@@ -119,7 +126,7 @@
             btnSchedule.ForeColor = Color.White;
             btnSchedule.Image = (Image)resources.GetObject("btnSchedule.Image");
             btnSchedule.ImageAlign = ContentAlignment.MiddleLeft;
-            btnSchedule.Location = new Point(12, 215);
+            btnSchedule.Location = new Point(14, 421);
             btnSchedule.Name = "btnSchedule";
             btnSchedule.Size = new Size(206, 83);
             btnSchedule.TabIndex = 2;
@@ -146,7 +153,7 @@
             btnHome.ForeColor = Color.White;
             btnHome.Image = (Image)resources.GetObject("btnHome.Image");
             btnHome.ImageAlign = ContentAlignment.MiddleLeft;
-            btnHome.Location = new Point(12, 126);
+            btnHome.Location = new Point(14, 332);
             btnHome.Name = "btnHome";
             btnHome.Size = new Size(207, 83);
             btnHome.TabIndex = 0;
@@ -161,24 +168,89 @@
             panel3.Dock = DockStyle.Top;
             panel3.Location = new Point(221, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(715, 25);
+            panel3.Size = new Size(1699, 25);
             panel3.TabIndex = 5;
+            // 
+            // dgvSenators
+            // 
+            dgvSenators.AllowUserToAddRows = false;
+            dgvSenators.AllowUserToDeleteRows = false;
+            dgvSenators.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvSenators.Location = new Point(390, 180);
+            dgvSenators.Name = "dgvSenators";
+            dgvSenators.ReadOnly = true;
+            dgvSenators.Size = new Size(542, 888);
+            dgvSenators.TabIndex = 6;
+            // 
+            // dgvPartylist
+            // 
+            dgvPartylist.AllowUserToAddRows = false;
+            dgvPartylist.AllowUserToDeleteRows = false;
+            dgvPartylist.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvPartylist.Location = new Point(1055, 180);
+            dgvPartylist.Name = "dgvPartylist";
+            dgvPartylist.ReadOnly = true;
+            dgvPartylist.Size = new Size(542, 888);
+            dgvPartylist.TabIndex = 7;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Brown;
+            label2.Location = new Point(1206, 143);
+            label2.Name = "label2";
+            label2.Size = new Size(221, 25);
+            label2.TabIndex = 15;
+            label2.Text = "PARTY LIST / Vote for 1";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Brown;
+            label1.Location = new Point(544, 143);
+            label1.Name = "label1";
+            label1.Size = new Size(214, 25);
+            label1.TabIndex = 14;
+            label1.Text = "SENATOR / Vote for 12";
+            // 
+            // labelCountdown
+            // 
+            labelCountdown.AutoSize = true;
+            labelCountdown.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelCountdown.ForeColor = SystemColors.ActiveCaptionText;
+            labelCountdown.Location = new Point(503, 49);
+            labelCountdown.Name = "labelCountdown";
+            labelCountdown.Size = new Size(1010, 65);
+            labelCountdown.TabIndex = 13;
+            labelCountdown.Text = "2025 Phillipine General Election Candidates";
+            labelCountdown.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // userDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(936, 573);
+            ClientSize = new Size(1920, 1080);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(labelCountdown);
+            Controls.Add(dgvPartylist);
+            Controls.Add(dgvSenators);
             Controls.Add(panel3);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "userDashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "userDashboard";
+            Load += userDashboard_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvSenators).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPartylist).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -192,5 +264,10 @@
         private Button btnSignOut;
         private Label labelUSer;
         private Panel panel3;
+        private DataGridView dgvSenators;
+        private DataGridView dgvPartylist;
+        private Label label2;
+        private Label label1;
+        private Label labelCountdown;
     }
 }
